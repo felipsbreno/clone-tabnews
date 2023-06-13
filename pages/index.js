@@ -1,8 +1,6 @@
-import useWindowSize from "react-use/lib/useWindowSize";
 import Confetti from "react-confetti";
 
 function Home() {
-  const { width, height } = useWindowSize();
   return (
     <div
       style={{
@@ -11,10 +9,11 @@ function Home() {
         alignItems: "center",
       }}
     >
-      <Confetti width={width} height={height} gravity={0.2} />
+      <Confetti width="1280" height="600" />
 
       <h1 style={{ fontFamily: "sans-serif" }}>
-        Anna meu amor, te amarei para sempre 🥰 Você é única na minha vida.
+        Minha familía, amarei vocês para sempre 🥰 Vocês são a única na minha
+        vida.
       </h1>
     </div>
   );
