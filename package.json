@@ -4,7 +4,9 @@
   "description": "Projeto criado no curso.dev, onde vamos clonar o TabNews",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-use": "^17.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
